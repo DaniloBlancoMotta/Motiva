@@ -2,7 +2,7 @@
 
 (https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aO78m8H4rsz1zUw7z4rEzZG0vTvON9bU?usp=sharing)
 
-Este projeto demonstra, de forma prática, como usar dados simulados de tráfego rodoviário para treinar modelos de Inteligência Artificial (IA) que ajudam a prever eventos críticos em rodovias — como necessidade de sinalização, riscos operacionais ou aumento de acidentes.
+Este projeto demonstrou, de forma prática, como usar dados simulados de tráfego rodoviário para treinar modelos de Inteligência Artificial (IA) que ajudam a prever eventos críticos em rodovias — como necessidade de sinalização, riscos operacionais ou aumento de acidentes.
 
 ## Objetivo
 
@@ -26,9 +26,3 @@ Este projeto demonstra, de forma prática, como usar dados simulados de tráfego
   - Eventos por hora
   - Superesportivos vs eventos
   - Matriz de correlação
-
-
-Se quiser rodar localmente:
-
-```bash
-pip install pandas numpy seaborn scikit-learn matplotlib
