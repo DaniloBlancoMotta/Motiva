@@ -39,3 +39,5 @@ Este conteúdo foi criado como ponto de partida. A ideia é tornar a IA mais com
 
 Vamos construir esse futuro juntos.
 
+https://colab.research.google.com/drive/1xE0TealW23qHdTyw_VuvSUyJI68IvcBQ#scrollTo=WfEVPZcyc1B_ 
+
