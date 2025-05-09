@@ -1,0 +1,34 @@
+## IA Rodoviária com Rede Neural e Random Forest
+
+(https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1aO78m8H4rsz1zUw7z4rEzZG0vTvON9bU?usp=sharing)
+
+Este projeto demonstra, de forma prática, como usar dados simulados de tráfego rodoviário para treinar modelos de Inteligência Artificial (IA) que ajudam a prever eventos críticos em rodovias — como necessidade de sinalização, riscos operacionais ou aumento de acidentes.
+
+## Objetivo
+
+- Aplicar modelos de IA (Random Forest e Rede Neural) para prever eventos rodoviários de risco
+- Simular dados operacionais relevantes: feriados, chuva, luminosidade, veículos importados e superesportivos
+- Utilizar séries temporais para detectar padrões mensais
+- Demonstrar tratamento completo de dados reais, inclusive com dados faltantes e categóricos
+- Gerar visualizações com Seaborn para facilitar a leitura dos resultados
+
+## O que está incluso no notebook
+
+- Geração de um dataset fictício com 184.785 registros
+- Tratamento de dados com SimpleImputer, normalização e codificação
+- Modelos:
+  - RandomForestClassifier
+  - MLPClassifier (Rede Neural Artificial)
+- Extração de features temporais (hora, mês, dia da semana)
+- Análise de séries temporais mensais
+- Gráficos visuais com Seaborn:
+  - Eventos com/sem chuva
+  - Eventos por hora
+  - Superesportivos vs eventos
+  - Matriz de correlação
+
+
+Se quiser rodar localmente:
+
+```bash
+pip install pandas numpy seaborn scikit-learn matplotlib
